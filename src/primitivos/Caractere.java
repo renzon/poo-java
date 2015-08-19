@@ -1,3 +1,4 @@
+package primitivos;
 
 public class Caractere {
 
@@ -13,7 +14,7 @@ public class Caractere {
 		s=null;
 		System.out.println(s);
 		
-		int i =null;
+//		int i =null;
 		
 		
 
