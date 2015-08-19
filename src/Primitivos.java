@@ -19,7 +19,7 @@ public class Primitivos {
 		byte by = 127;
 		short s = 800;
 		int i=900;
-		long l=8000;
+		long l=8000l;
 		
 		s = by;
 		++s;
