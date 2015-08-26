@@ -10,6 +10,7 @@ public class Pessoa {
 	}
 
 	public Pessoa(String nome) {
+		super();
 		this.nome = nome;
 	}
 
