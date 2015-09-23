@@ -10,7 +10,7 @@ public class Main {
 		System.out.println(b.soma(1.0, 2, 3));
 		System.out.println(b.soma(1.0, 2, 3, 4));
 		System.out.println(b.soma(1, 2, 3));
-		int[] numeros={1,2,3,4,5};
-		System.out.println(b.soma( numeros));
+		double[] numeros={1,2,3,4,5};
+		System.out.println(b.soma(1.0, 1, numeros));
 	}
 }

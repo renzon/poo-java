@@ -24,7 +24,7 @@ public class Base {
 		return soma(a,b)+c;
 	}
 	
-	public double soma(double ... args){
+	public double soma(double a, double b, double ... args){
 		double soma = 0;
 		for(double d:args){
 			soma+=d;
