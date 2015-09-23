@@ -3,6 +3,7 @@ package aula6;
 import aula5.Pessoa;
 
 public class Homem extends Pessoa {
+	public Homem amigo;
 
 	public Homem(String nome) {
 		super(nome);
@@ -19,6 +20,11 @@ public class Homem extends Pessoa {
 	public String cumprimentar() {
 		String msg = super.cumprimentar();
 		return msg+". Aperto de mãos";
+	}
+	
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println(nome+" sendo coletado");
 	}
 
 }
